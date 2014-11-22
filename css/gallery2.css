@@ -1,0 +1,63 @@
+
+
+#sidePannel{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 600px;
+	width: 80px;
+	background-color: black;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	padding-top: 120px;
+	font-family: 'Indie Flower', cursive;
+	z-index: 6;
+}
+
+#pic1, #pic2, #pic3{
+	position: absolute;
+	left: 80px;
+	top: 0;
+}
+
+#pic1{
+	z-index: 3;
+}
+
+#pic2{
+	z-index: 1;
+}
+
+#pic3{
+	z-index: 1;
+}
+
+#b1, #b2, #b3{
+	position: absolute;
+	left: 80px;
+	top: 0;
+	-webkit-transition: all 1s;
+}
+
+#b1{
+	position: absolute;
+	top: 0;
+	z-index: 5;
+}
+
+#b2{
+	position: absolute;
+	left: 305px;
+	top: 0;
+	z-index: 5;
+}
+
+#b3{
+	position: absolute;
+	left: 530px;
+	top: 0;
+	z-index: 5;
+}
+
