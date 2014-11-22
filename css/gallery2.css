@@ -17,6 +17,33 @@
 	z-index: 6;
 }
 
+#topPannel{
+	position: fixed;
+	top: 0;
+	height: 20px;
+	width: 100%;
+	background-color: black;
+	z-index: 6;
+}
+
+#bottomPannel{
+	position: fixed;
+	bottom: 0;
+	height: 20px;
+	width: 100%;
+	background-color: black;
+	z-index: 6;
+}
+
+#rightPannel{
+	position: fixed;
+	right: 0;
+	height: 100%;
+	width: 20px;
+	background-color: black;
+	z-index: 6;
+}
+
 #pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
 	position: absolute;
 	left: 80px;

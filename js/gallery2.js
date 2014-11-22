@@ -73,9 +73,9 @@ function displayIm(im){
 	ob6.style['visibility'] = 'hidden';
 }
 
-function stateAfter(elem, offset){
-
-}
+// function stateAfter(elem, param, value){
+// 	elem.style[param] = value;
+// }
 
 function resetAll(){
 	if(p1.style['z-index'] == '4' || p2.style['z-index'] == '4' || p3.style['z-index'] == '4' || p4.style['z-index'] == '4' || p5.style['z-index'] == '4' || p6.style['z-index'] == '4'){
