@@ -12,29 +12,23 @@
 	color: white;
 	font-size: 50px;
 	padding-top: 120px;
+	padding-bottom: 120px;
 	font-family: 'Indie Flower', cursive;
 	z-index: 6;
 }
 
-#pic1, #pic2, #pic3{
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6{
 	position: absolute;
 	left: 80px;
 	top: 0;
+	z-index: 1;
 }
 
 #pic1{
 	z-index: 3;
 }
 
-#pic2{
-	z-index: 1;
-}
-
-#pic3{
-	z-index: 1;
-}
-
-#b1, #b2, #b3{
+#b1, #b2, #b3, #b4, #b5, #b6{
 	position: absolute;
 	left: 80px;
 	top: 0;
@@ -49,14 +43,35 @@
 
 #b2{
 	position: absolute;
-	left: 305px;
+	left: 180px;
 	top: 0;
 	z-index: 5;
 }
 
 #b3{
 	position: absolute;
-	left: 530px;
+	left: 280px;
+	top: 0;
+	z-index: 5;
+}
+
+#b4{
+	position: absolute;
+	left: 380px;
+	top: 0;
+	z-index: 5;
+}
+
+#b5{
+	position: absolute;
+	left: 480px;
+	top: 0;
+	z-index: 5;
+}
+
+#b6{
+	position: absolute;
+	left: 580px;
 	top: 0;
 	z-index: 5;
 }
