@@ -56,14 +56,22 @@ function displayIm(im){
 		default: break;
 	}
 
+
 	ob2.style['visibility'] = 'hidden';
- 
-	picture1.style['z-index'] = 4;
-	picture2.style['z-index'] = 0;
-	picture3.style['z-index'] = 0;
-	picture4.style['z-index'] = 0;
-	picture5.style['z-index'] = 0;
-	picture6.style['z-index'] = 0;
+
+	if(picture1 != p1){
+		picture1.style['opacity'] = '1';
+		p1.style['opacity'] = '0.1';
+	}
+	
+	
+	picture1.style['z-index'] = '4';
+
+	picture2.style['z-index'] = '0';
+	picture3.style['z-index'] = '0';
+	picture4.style['z-index'] = '0';
+	picture5.style['z-index'] = '0';
+	picture6.style['z-index'] = '0';
 
 	ob1.style['visibility'] = 'hidden';
 	ob2.style['visibility'] = 'hidden';
@@ -85,6 +93,13 @@ function resetAll(){
 		p4.style['z-index'] = '1';
 		p5.style['z-index'] = '1';
 		p6.style['z-index'] = '1';
+
+		p1.style['opacity'] = '1';
+		p2.style['opacity'] = '0.1';
+		p3.style['opacity'] = '0.1';
+		p4.style['opacity'] = '0.1';
+		p5.style['opacity'] = '0.1';
+		p6.style['opacity'] = '0.1';
 
 		ob1.style['left'] = '80px';
 		ob2.style['left'] = '180px';

@@ -7,7 +7,7 @@
 	height: 600px;
 	width: 80px;
 	background-color: black;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 40px 0px 100px black;
 	text-align: center;
 	color: white;
 	font-size: 50px;
@@ -37,9 +37,10 @@
 
 #rightPannel{
 	position: fixed;
-	right: 0;
+	box-shadow: -40px 0px 100px black;
+	right: -60px;
 	height: 100%;
-	width: 20px;
+	width: 80px;
 	background-color: black;
 	z-index: 6;
 }
@@ -49,17 +50,21 @@
 	left: 80px;
 	top: 0;
 	z-index: 1;
+	-webkit-transition: opacity 2s;
+	opacity: 0.1;
 }
 
 #pic1{
 	z-index: 3;
+	opacity: 1;
+	
 }
 
 #b1, #b2, #b3, #b4, #b5, #b6{
 	position: absolute;
 	left: 80px;
 	top: 0;
-	-webkit-transition: all 1s;
+	-webkit-transition: all 2s;
 }
 
 #b1{
