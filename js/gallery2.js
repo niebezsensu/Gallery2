@@ -21,7 +21,6 @@ ob4.addEventListener('click', function(){displayIm(ob4)}, false);
 ob5.addEventListener('click', function(){displayIm(ob5)}, false); 
 ob6.addEventListener('click', function(){displayIm(ob6)}, false); 
 
-//WYLACZYC NA CZAS PRZEJSCIA!!
 p1.addEventListener('click', function(){resetAll();}, false);
 p2.addEventListener('click', function(){resetAll();}, false);
 p3.addEventListener('click', function(){resetAll();}, false);
@@ -35,23 +34,23 @@ function displayIm(im){
 	var button1, button2, button3, button4, button5, button6;
 	
 	switch(im.id){
-		case "b1": ob1.style['left'] = '1280px'; ob2.style['left'] = '1380px'; ob3.style['left'] = '1480px'; 
+		case "b1": ob2.style['left'] = '1380px'; ob3.style['left'] = '1480px'; 
 					ob4.style['left'] = '1580px'; ob5.style['left'] = '1680px'; ob6.style['left'] = '1780px'; 
 					picture1 = p1; picture2 = p2; picture3 = p3; picture4 = p4; picture5 = p5; picture6 = p6; break;
-		case "b2": ob1.style['left'] = '-180px'; ob2.style['left'] = '1280px'; ob3.style['left'] = '1380px';
+		case "b2": ob1.style['left'] = '-180px'; ob3.style['left'] = '1380px';
 					ob4.style['left'] = '1480px'; ob5.style['left'] = '1580px'; ob6.style['left'] = '1680px';  
 					picture1 = p2; picture2 = p1; picture3 = p3; picture4 = p4; picture5 = p5; picture6 = p6; break;
-		case "b3": ob1.style['left'] = '-280px'; ob2.style['left'] = '-180px'; ob3.style['left'] = '1280px';
+		case "b3": ob1.style['left'] = '-280px'; ob2.style['left'] = '-180px'; 
 					ob4.style['left'] = '1380px'; ob5.style['left'] = '1480px'; ob6.style['left'] = '1580px';   
 					picture1 = p3; picture2 = p2; picture3 = p1; picture4 = p4; picture5 = p5; picture6 = p6; break;
 		case "b4": ob1.style['left'] = '-380px'; ob2.style['left'] = '-280px'; ob3.style['left'] = '-180px';
-					ob4.style['left'] = '1280px'; ob5.style['left'] = '1380px'; ob6.style['left'] = '1480px';
+					ob5.style['left'] = '1380px'; ob6.style['left'] = '1480px';
 					picture1 = p4; picture2 = p2; picture3 = p3; picture4 = p1; picture5 = p5; picture6 = p6; break;
 		case "b5": ob1.style['left'] = '-480px'; ob2.style['left'] = '-380px'; ob3.style['left'] = '-280px';
-					ob4.style['left'] = '-180px'; ob5.style['left'] = '1280px'; ob6.style['left'] = '1380px';
+					ob4.style['left'] = '-180px';  ob6.style['left'] = '1380px';
 					picture1 = p5; picture2 = p4; picture3 = p3; picture4 = p2; picture5 = p1; picture6 = p6; break;
 		case "b6": ob1.style['left'] = '-580px'; ob2.style['left'] = '-480px'; ob3.style['left'] = '-380px';
-					ob4.style['left'] = '-280px'; ob5.style['left'] = '-180px'; ob6.style['left'] = '1280px';
+					ob4.style['left'] = '-280px'; ob5.style['left'] = '-180px'; 
 					picture1 = p6; picture2 = p2; picture3 = p3; picture4 = p4; picture5 = p5; picture6 = p1; break;		
 		default: break;
 	}
@@ -60,8 +59,8 @@ function displayIm(im){
 	ob2.style['visibility'] = 'hidden';
 
 	if(picture1 != p1){
-		picture1.style['opacity'] = '1';
-		p1.style['opacity'] = '0.1';
+		// picture1.style['opacity'] = '1';
+		// p1.style['opacity'] = '0.1';
 	}
 	
 	
@@ -87,19 +86,19 @@ function displayIm(im){
 
 function resetAll(){
 	if(p1.style['z-index'] == '4' || p2.style['z-index'] == '4' || p3.style['z-index'] == '4' || p4.style['z-index'] == '4' || p5.style['z-index'] == '4' || p6.style['z-index'] == '4'){
-		p1.style['z-index'] = '3';
-		p2.style['z-index'] = '1';
-		p3.style['z-index'] = '1';
-		p4.style['z-index'] = '1';
-		p5.style['z-index'] = '1';
-		p6.style['z-index'] = '1';
+		// p1.style['z-index'] = '3';
+		// p2.style['z-index'] = '1';
+		// p3.style['z-index'] = '1';
+		// p4.style['z-index'] = '1';
+		// p5.style['z-index'] = '1';
+		// p6.style['z-index'] = '1';
 
-		p1.style['opacity'] = '1';
-		p2.style['opacity'] = '0.1';
-		p3.style['opacity'] = '0.1';
-		p4.style['opacity'] = '0.1';
-		p5.style['opacity'] = '0.1';
-		p6.style['opacity'] = '0.1';
+		// p1.style['opacity'] = '1';
+		// p2.style['opacity'] = '0.1';
+		// p3.style['opacity'] = '0.1';
+		// p4.style['opacity'] = '0.1';
+		// p5.style['opacity'] = '0.1';
+		// p6.style['opacity'] = '0.1';
 
 		ob1.style['left'] = '80px';
 		ob2.style['left'] = '180px';

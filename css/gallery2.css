@@ -50,8 +50,8 @@
 	left: 80px;
 	top: 0;
 	z-index: 1;
-	-webkit-transition: opacity 2s;
-	opacity: 0.1;
+	/*-webkit-transition: opacity 2s;*/
+	/*opacity: 0.1;*/
 }
 
 #pic1{
@@ -64,7 +64,7 @@
 	position: absolute;
 	left: 80px;
 	top: 0;
-	-webkit-transition: all 2s;
+	-webkit-transition: all 1s;
 }
 
 #b1{
